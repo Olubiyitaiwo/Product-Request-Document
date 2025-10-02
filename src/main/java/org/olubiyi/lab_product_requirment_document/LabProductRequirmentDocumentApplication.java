@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class LabProductRequirmentDocumentApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(LabProductRequirmentDocumentApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(LabProductRequirmentDocumentApplication.class, args);
+    }
 
 }

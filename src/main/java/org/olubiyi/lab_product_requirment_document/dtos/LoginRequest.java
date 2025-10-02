@@ -3,8 +3,7 @@ package org.olubiyi.lab_product_requirment_document.dtos;
 import lombok.Data;
 
 @Data
-public class SignUpResponse {
-    private Long id;
+public class LoginRequest {
     private String email;
     private String password;
 }
