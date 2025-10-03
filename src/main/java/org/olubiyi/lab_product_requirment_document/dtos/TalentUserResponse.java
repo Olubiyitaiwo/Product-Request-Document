@@ -1,11 +1,11 @@
 package org.olubiyi.lab_product_requirment_document.dtos;
 
 import lombok.Data;
-import org.springframework.context.annotation.Profile;
+import org.olubiyi.lab_product_requirment_document.models.TalentProfile;
 
 @Data
 public class TalentUserResponse {
     private Long id;
     private String email;
-    private Profile profile;
+    private TalentProfile talentProfile;
 }
