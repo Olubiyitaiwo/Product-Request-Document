@@ -13,6 +13,7 @@ public class TalentUser {
     private Long id;
 
     private String email;
+    private String password;
 
     @OneToOne(cascade = CascadeType.ALL, orphanRemoval = true)
     @JoinColumn(name = "talent_profile_id", referencedColumnName = "id")
